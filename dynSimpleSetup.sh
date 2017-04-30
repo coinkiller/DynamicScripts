@@ -57,15 +57,15 @@ fi
 
 echo "" | tee -a DynamicSimpleSetup.log
 echo "" | tee -a DynamicSimpleSetup.log
-echo "Step 1: Download the latest dynStartupScript.sh from GitHub, https://github.com/LordDarkHelmet/DynamicScripts" | tee -a DynamicSimpleSetup.log
+echo "Step 1: Download the latest dynStartupScript.sh from GitHub, https://github.com/coinkiller/DynamicScripts" | tee -a DynamicSimpleSetup.log
 echo "- To download from GitHub we need to install GIT" | tee -a DynamicSimpleSetup.log
 sudo apt-get -y install git | tee -a DynamicSimpleSetup.log
 echo "- Clone the repository" | tee -a DynamicSimpleSetup.log
-sudo git clone https://github.com/LordDarkHelmet/DynamicScripts | tee -a DynamicSimpleSetup.log
+sudo git clone https://github.com/coinkiller/DynamicScripts | tee -a DynamicSimpleSetup.log
 echo "- Navigate to the script" | tee -a DynamicSimpleSetup.log
 cd DynamicScripts
 echo "- Just in case we prevously ran this script, pull the latest from GitHub" | tee -a DynamicSimpleSetup.log
-sudo git pull https://github.com/LordDarkHelmet/DynamicScripts | tee -a DynamicSimpleSetup.log
+sudo git pull https://github.com/coinkiller/DynamicScripts | tee -a DynamicSimpleSetup.log
 echo "" | tee -a DynamicSimpleSetup.log
 echo "Step 2: Set permissions so that dynStartupScript.sh can run" | tee -a DynamicSimpleSetup.log
 echo "- Change the permissions" | tee -a DynamicSimpleSetup.log
