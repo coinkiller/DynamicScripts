@@ -7,7 +7,7 @@
 # myScrapeAddress: This is the address that the wallet will scrape mining coins to:
 # "IF YOU DON'T USE ATTRIBUTES TO PASS IN YOUR VALUES THEN:"
 # "CHANGE THE ADDRESS BELOW TO BE THE ONE FOR YOUR WALLET"
-myScrapeAddress=DJnERexmBy1oURgpp2JpzVzHcE17LTFavD
+myScrapeAddress=DLvnNNYzbUxtDyADbyGDSio9ghazEcvRBk
 # "CHANGE THE ADDRESS ABOVE TO BE THE ONE FOR YOUR WALLET"
 # "CHANGE THE ADDRESS ABOVE TO BE THE ONE FOR YOUR WALLET"
 
@@ -86,7 +86,7 @@ varQuickStartCompressedBlockChainFileIsZip=true
 
 # Compile
 # -varCompile will compile the code
-varCompile=true
+varCompile=false
 
 
 #
@@ -97,7 +97,7 @@ varExpandSwapFile=true
 #varMining0ForNo1ForYes controls if we mine or not. set it to 0 if you don't want to mine, set to 1 if you want to mine
 varMining0ForNo1ForYes=1
 #varMiningProcessorLimit set the number of processors you want to use -1 for unbounded (all of them)
-varMiningProcessorLimit=-1
+varMiningProcessorLimit=2
 #varMiningScrapeTime is the amount of time in minutes between scrapes use 15 recommended
 varMiningScrapeTime=15
 
